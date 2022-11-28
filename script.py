@@ -4,9 +4,11 @@ import os
 import re
 import csv
 
+# change to your OCR location:
 pt.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
-path = r"C:\Users\sales\OneDrive\Desktop\Data_homework\Task_2"
+# change to your favourite directory:
+path = r"C:\Users\pet\OneDrive\Desktop\Data_homework\Task_2"
 
 fileLog = []
 readyData = []
